@@ -16,32 +16,35 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-
 <body>
     <!-- Шапка сайта -->
     <header class="header">
         <div class="container">
             <nav class="header-navigation">
-                <a class="header-logo link" href="/index.html">
+                <a class="header-logo link" href="/">
                     Web<span class="header-studio">Studio</span>
                 </a>
 
 
                 <ul class="header-list list ">
-                    <li class="header-item"><a href="./index.html" class="header-link link">Студия</a></li>
-                    <li class="header-item"><a href=" ./portfolio.html" class="header-link current link">Портфолио</a>
-                    </li>
-                    <li class="header-item"><a href="" class="header-link link"> Контакты</a></li>
+                    <li class="header-item"><a href="index.html" class="header-link current  link">Студия</a></li>
+                    <li class="header-item"><a href=" ./portfolio.html" class="header-link link">Портфолио</a></li>
+                    <li class="header-item"><a href="" class="header-link  link"> Контакты</a></li>
                 </ul>
 
                 <ul class="header-mail-tel">
-                    <li class="header-mail list"><a href="" class="mail-link link">info@devstudio.com</a></li>
-                    <li class="header-tel list"><a href="" class="tel-link link">+38 096 111 11 11</a></li>
+                    <li class="header-mail list"><a href="" class="mail-link link"><svg class="mail-social-icon"
+                                width="16" height="16">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>info@devstudio.com</a></li>
+                    <li class="header-tel list"><a href="" class="tel-link link"><svg class="tel-social-icon" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-smartphone"></use>
+                            </svg>+38 096 111 11 11</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <main>
         <!-- Кнопки -->
         <section class="main-menu">
@@ -132,7 +135,7 @@
     </main>
     <!-- Футер -->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-container">
             <div class="container-footer-logo">
                 <a class="footer-logo link" href="/">
                     Web<span class="footer-studio">Studio</span>
@@ -154,6 +157,37 @@
                     </li>
                 </ul>
             </address>
+
+            <div class="footer-join">
+                <p class="join">ПРИСОЕДИНЯЙТЕСЬ</p>
+                <ul class="footer-social-list list">
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg></a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg></a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
